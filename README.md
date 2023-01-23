@@ -7,7 +7,7 @@ Brief description of each file:
 basic_timer - first python project ever made. a personal project both for fun and learning.
 
 
-Knight_Project - first formally assigned python project. it was academically graded which aided in focusing on what to concepts to focus on.
+Knight_Project - first formally assigned python project. it was academically graded which aided in focusing on what to concepts to implement.
 
 Current contributions focused mainly on:
 
