@@ -5,6 +5,8 @@ the files committed here are to *build a portfolio* of coding projects for the p
 
 Brief description of each file:
 basic_timer - first python project ever made. a personal project both for fun and learning.
+
+
 Knight_Project - first formally assigned python project. it was academically graded which aided in focusing on what to concepts to focus on.
 
 Current contributions focused mainly on:
