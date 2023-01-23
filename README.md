@@ -14,7 +14,7 @@ Current contributions focused mainly on:
 - Correct and consistent spacing, following PEP8 guidelines.
 - Concise naming conventions that are descriptive and consistent with PEP8.
 - Comments that explain code and are consistent with PEP8 guidelines.
-- Complete error handling.
-- Multiple functions.
-- Program's use of data involves advanced data management.
-- Concise use of repetition structures. Has no unnecessary repetitions. 
+- Error handling.
+- Functions.
+- Nested loops and advanced data management.
+- Concise use of repetition structures. 
