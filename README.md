@@ -4,10 +4,10 @@ Here is a showcase of personal projects & academic assignments
 The programs committed here are to *build a portfolio* of coding projects for the purpose of *sharing my work with others*. 
 
 Brief description of each program:
-basic_timer - First Python project ever made. A personal project both for fun and learning.
+**basic_timer** - First Python project ever made. A personal project both for fun and learning.
 
 
-Knight_Project - A formally assigned Python project. It was academically assigned which aided in deciding on what to concepts to implement.
+**Knight_Project** - A formally assigned Python project. It was academically assigned which aided in deciding on what to concepts to implement.
 
 Current contributions focused mainly on:
 
