@@ -1,13 +1,13 @@
 # demo-projects-python
-showcase of personal projects
+Here is a showcase of personal projects & academic assignments
 
-the files committed here are to *build a portfolio* of coding projects for the purpose of *sharing my work with others*
+The programs committed here are to *build a portfolio* of coding projects for the purpose of *sharing my work with others*. 
 
-Brief description of each file:
-basic_timer - first python project ever made. a personal project both for fun and learning.
+Brief description of each program:
+basic_timer - First Python project ever made. A personal project both for fun and learning.
 
 
-Knight_Project - first formally assigned python project. it was academically graded which aided in focusing on what to concepts to implement.
+Knight_Project - A formally assigned Python project. It was academically assigned which aided in deciding on what to concepts to implement.
 
 Current contributions focused mainly on:
 
@@ -18,3 +18,5 @@ Current contributions focused mainly on:
 - Functions.
 - Nested loops and advanced data management.
 - Concise use of repetition structures. 
+
+More to come!
