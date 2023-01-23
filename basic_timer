@@ -10,23 +10,30 @@ speed2 = "Normal"
 speed3 = "Slow"
 custom_choice = "Custom"
 custom_speed = "None selected"
+CycleCode = True
 
-CycleCode = True #masterloop condition
-
-while CycleCode: #the masterloop
-    x = 0 #resets x to zero
-    answer = input("Want to start timing now? ") #asks user if they wish to use the program
-    if answer == "Yes" or answer == "Start program": #shows that multiple answers may be inputted, and this line accounts for that (very briefly)
-        duration_of_timer = int(input("Enter timer duration: ")) #allows choice of how long timer will go for
-        countdown_speed = input("Choose a speed: Fast (1 sec = 3 sec), Normal (1 sec = 1 sec), Slow (2 sec = 1 sec), Custom (Specify): ") #allows user to select a speed for the timer/counter
+#  Masterloop
+while CycleCode: 
+    #  Resets x to zero
+    x = 0 
+    #  Asks user if they wish to use the program.
+    answer = input("Want to start timing now? ") 
+    #  Shows that multiple answers may be inputted, and this line accounts for that (very briefly).
+    if answer == "Yes" or answer == "Start program": 
+        #  Allows choice of how long timer will go for
+        duration_of_timer = int(input("Enter timer duration: ")) 
+        #  Allows user to select a speed for the timer/counter
+        countdown_speed = input("Choose a speed: Fast (1 sec = 3 sec), Normal (1 sec = 1 sec), Slow (2 sec = 1 sec), Custom (Specify): ") 
         while countdown_speed != str and countdown_speed != speed1 and countdown_speed != speed2 and countdown_speed != speed3 and countdown_speed != custom_choice:
                  countdown_speed = input("Choose a speed: Fast (1 sec = 3 sec), Normal (1 sec = 1 sec), Slow (2 sec = 1 sec), Custom (Specify) ")
         if countdown_speed == custom_choice:
             custom_speed = float(input("Specify a speed. Example if you enter 3, the timer is 3x slower than normal. If you enter 0.5, its twice as fast: "))
-        os.system('cls') #clears screen for visual neatness
+        #  Clears screen for visual neatness
+        os.system('cls') 
         while answer2 != answer: #as long as the user has not enter No after initiating the program, the user can continue to run this loop
             if countdown_speed == speed1: #if the user entered fast at line 20, execute this code
-                print("Counter is at: " , x , "ticks") #displays the current increment of the timer
+                #  Displays the current increment of the timer
+                print("Counter is at: " , x , "ticks") 
                 time.sleep(1/3)
                 os.system('cls') 
                 x = x + 1 
@@ -69,10 +76,12 @@ while CycleCode: #the masterloop
             time.sleep(1)  
             if cc == 2:
                 print("Goodbye!")
-                CycleCode = False #causes the masterloop conditon to be false, terminating the program
-    if  answer != "Yes" and answer != "No" and answer != "No thanks" and answer != "Lets do it" : #if user does not enter a proper value, this will prompt them to reenter an acceptable value
+                #  Causes the masterloop conditon to be false, terminating the program
+                CycleCode = False 
+    #  If user does not enter a proper value, this will prompt them to reenter an acceptable value.
+    if  answer != "Yes" and answer != "No" and answer != "No thanks" and answer != "Lets do it" : 
         os.system('cls')    
-        print("Type Yes or Start program to begin. Type No or End program to terminate.")   
+        print("Type Yes or Start program to begin. Type No or End program to terminate.")  
         
 
         
