@@ -9,7 +9,7 @@ Brief description of each program:
 **basic_timer** - First Python project ever made. A personal project both for fun and learning.
 
 
-**Knight_Project** - A formally assigned Python project. It was academically assigned which aided in deciding on what concepts to implement.
+**CapstonePythonProject** - A formally assigned Python project. It was academically assigned which aided in deciding on what concepts to implement.
 
 Current contributions focused mainly on:
 
