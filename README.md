@@ -6,7 +6,7 @@ The programs committed here are to *build a portfolio* of coding projects for th
 Brief description of each program:
 
 
-**basic_timer** - First Python project ever made. A personal project both for fun and learning.
+**Basic_Timer** - First Python project ever made. A personal project both for fun and learning.
 
 
 **CapstonePythonProject** - A formally assigned Python project. It was academically assigned which aided in deciding on what concepts to implement.
