@@ -1,7 +1,7 @@
 # demo-projects-python
 Here is a showcase of personal projects & academic assignments
 
-The programs committed here are to *build a portfolio* of coding projects for the purpose of *sharing my work with others* and documenting my growth as a Python developer.
+The programs committed here are to build a portfolio of coding projects for the purpose of sharing my work with others and documenting my growth as a Python developer.
 
 Current contributions focused mainly on:
 
