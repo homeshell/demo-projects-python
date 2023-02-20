@@ -20,5 +20,6 @@ Current contributions focused mainly on:
 - Functions.
 - Nested loops and advanced data management.
 - Concise use of repetition structures. 
+- Creative use of random module.
 
 More to come!
